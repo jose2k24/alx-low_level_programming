@@ -9,7 +9,9 @@ int main(void)
 {
 	char low;
         for (low = 'a'; low <= 'z'; low++)
-	{ putchar(low);\n;
+	{ 
+		putchar(low);
+		printf(" ");
 	}
    	   return (0);
 }
