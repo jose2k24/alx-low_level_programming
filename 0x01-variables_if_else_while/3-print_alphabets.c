@@ -7,17 +7,17 @@
 **/
 int main(void)
 {
-char c,d;
-for (c = 'a' ; c <= 'z' ; ++c)
+char c;
+for (c = 'a'; c <= 'z'; c++)
 {
-putchar(c);
+putchar(low);
 }
-for(d = 'A' ; d <= 'Z' ; ++d)
+for (c = 'A'; c <= 'Z'; c++)
 {
-putchar(d);
+putchar(low);
 }
 {
-putchar('\n')
+putchar('\n');
 }
-return(0);
-
+return (0);
+}
