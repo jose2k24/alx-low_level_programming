@@ -11,6 +11,5 @@ for (low = 'a'; low <= 'z'; low++)
 {
 putchar(low);
 }
-printf(" ");
 return (0);
 }
