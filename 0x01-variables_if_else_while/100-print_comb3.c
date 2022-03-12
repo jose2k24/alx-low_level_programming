@@ -2,23 +2,28 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *  * main - main block
- *   * Return: Always 0 (Success)
-**/
+ * main - prints all possible different combinations of two digits
+ * Return: ALways 0 (Success)
+ */
 int main(void)
 {
-int d;
-for (d = 0; d <= 99; d++)
+int n, m;
+for (n = 48; n <= 56; n++)
 {
-putchar(d);
-}
-if (d != 89 )
+for (m = 49; m <= 57; m++)
 {
-putchar(',');
+if (m > n)
+{
+putchar(n);
+putchar(m);
+if (n != 56 || m != 57)
+{
+putchar(',');					
 putchar(' ');
 }
-{
-putchar('\n');
 }
+}
+}
+putchar('\n');
 return (0);
 }
