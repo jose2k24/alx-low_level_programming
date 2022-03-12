@@ -7,10 +7,8 @@
 **/
 int main(void)
 {
-{
 int d;
 for (d = 0; d <= 99; d++)
-{
 {
 putchar(d);
 }
@@ -18,7 +16,6 @@ if (d != 89 )
 {
 putchar(',');
 putchar(' ');
-}
 }
 {
 putchar('\n');
