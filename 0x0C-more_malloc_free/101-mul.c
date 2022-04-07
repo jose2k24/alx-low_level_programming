@@ -14,7 +14,7 @@ while (s[i])
 if (s[i] < '0' || s[i] > '9')
 return (0);
 i++;
-}
+}i
 return (1);
 }
 /**
@@ -72,9 +72,7 @@ result[len1 + len2 + 1] = carry % 10;
 carry /= 10;
 }
 if (carry > 0)
-{
 result[len1 + len2 + 1] += carry;
-}
 for (i = 0; i < len - 1; i++)
 {
 if (result[i])
