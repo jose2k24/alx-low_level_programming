@@ -41,7 +41,7 @@ printf("%f", va_arg(list, double));
 break;
 case's':
 switch (start)
-{ 
+{
 case 1: printf(", ");
 }
 start = 1;
