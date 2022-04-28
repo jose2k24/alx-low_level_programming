@@ -14,7 +14,7 @@ return (0);
 for (i = 0; i <= 63; n >>= 1, i++)
 {
 if (index == i)
-}
+{
 return (n & 1);
 }
 }
