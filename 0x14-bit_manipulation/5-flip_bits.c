@@ -1,10 +1,10 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * flip_bits - Entry Point
- * @n: input
- * @m: bits
- * Return: 0
- */
+* flip_bits - Entry Point
+* @n: input
+* @m: bits
+* Return: 0
+*/
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 unsigned int count = 0;
