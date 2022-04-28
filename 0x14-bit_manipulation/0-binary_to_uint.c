@@ -1,5 +1,5 @@
 #include "main.h"
-/**
+/*
 * binary_to_uint - Entry Point
 * @b: const char
 * Return: 0
