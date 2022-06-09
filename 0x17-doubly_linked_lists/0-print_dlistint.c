@@ -2,9 +2,7 @@
 #include <unistd.h>
 /**
  * print_dlistint - prints a dlistint_t list
- *
- * @h: head of list to print
- *
+ * @h: head of list to prin
  * Return: size of list
  */
 size_t print_dlistint(const dlistint_t *h)
